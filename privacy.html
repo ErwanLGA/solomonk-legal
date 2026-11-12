@@ -11,7 +11,7 @@
 <nav><a href="./">Support</a><a href="privacy">Privacy Policy</a><a href="terms">Terms of Use</a></nav>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: September 25, 2026</p>
+<p class="updated">Last updated: November 12, 2026</p>
 
 <p>Solomonk is a language-learning app published by Erwan Le Gloannic EI (entrepreneur individuel, SIRET 840 813 661 00013), 139 rue Louis Rouquier, 92300 Levallois-Perret, France. This policy explains what data the app uses, why, and what your rights are. I am the data controller under the EU General Data Protection Regulation (GDPR).</p>
 <p>Contact: <a href="mailto:legloannicerwan@gmail.com">legloannicerwan@gmail.com</a></p>
@@ -19,28 +19,28 @@
 <div class="summary">
 <h2>The short version</h2>
 <ul>
-<li>You can use Solomonk without an account. The app creates an anonymous guest profile so your progress is saved.</li>
-<li>If you create an account, your email address is stored too.</li>
+<li>You need an account to use Solomonk. You sign in with Apple or Google.</li>
 <li>Your data is only used to run the app. No ads, no tracking, no selling of data.</li>
-<li>You can delete your account and its data at any time in the app (Profile → Delete Account).</li>
+<li>Crash reports are sent without your name, email or account.</li>
+<li>You can delete your account and all its data at any time in the app (Profile → Delete Account).</li>
 </ul>
 </div>
 
 <h2>What data the app uses</h2>
-<p><strong>Guest profile (everyone).</strong> When you first open the app, an anonymous profile is created with a random identifier. No name or email is needed.</p>
-<p><strong>Account (if you create one).</strong> When you save your progress, you sign in with:</p>
+<p><strong>Your account.</strong> You sign in with:</p>
 <ul>
-<li>your email address (you receive a one-time code), or</li>
 <li>Sign in with Apple (Apple shares your email address, or a private relay address if you choose to hide it), or</li>
 <li>Sign in with Google (Google shares your email address and, depending on your Google settings, your name and profile picture).</li>
 </ul>
-<p><strong>Your learning data.</strong> The words you save, the words you mark as focus, the text each word was saved from, your daily goal, your streak and the days you reached your goal.</p>
+<p>Your account gets a random identifier. Everything below is linked to it.</p>
+<p><strong>Your learning data.</strong> The words you save, the words you mark as focus, the subject each word was saved from, your daily goal, your streak, the days you reached your goal, and a history of the words you saved (day and language), so your stats are never lost. The app also remembers the subject you were reading in each language, so you find your place again on another phone.</p>
 <p><strong>Translation reports.</strong> If you report a translation, the report is stored with your identifier and the word concerned, so it can be reviewed and fixed.</p>
-<p><strong>Purchases.</strong> Subscriptions are sold and paid through Apple; I never see your payment details. RevenueCat, the service that manages the app's subscriptions, receives your app identifier and your purchase information from Apple (product, dates, status), so the app knows whether you have Premium.</p>
-<p><strong>Technical data.</strong> Like any online service, the servers that run the app and RevenueCat may record technical information such as your IP address, device model, system version and app version, to deliver the service and keep it secure.</p>
-<p><strong>Kept on your phone only.</strong> Your learning language, where you stopped reading, whether you finished the welcome screens, whether you rated the app, and the install date used for the launch offer. The reminder before the end of a free trial is scheduled on your phone.</p>
+<p><strong>Messages you send.</strong> "Contact Us" and "Report Error" send your message from inside the app. It is stored with the email address you typed, your identifier and the app version, so I can answer you.</p>
+<p><strong>Purchases.</strong> Subscriptions are sold and paid through Apple; I never see your payment details. RevenueCat, the service that manages the app's subscriptions, receives your account identifier and your purchase information from Apple (product, dates, status), so the app knows whether you have Premium.</p>
+<p><strong>Crash reports.</strong> If the app crashes or hits an error, a report is sent to Sentry: what went wrong and where in the code, the app version, the device model and the iOS version. No name, email, account identifier or IP address is attached to it.</p>
+<p><strong>Technical data.</strong> Like any online service, the servers that run the app, RevenueCat and Sentry may record technical information such as your IP address, device model, system version and app version, to deliver the service and keep it secure.</p>
+<p><strong>Kept on your phone only.</strong> Your learning language, whether you finished the welcome screens, and your answers to the review question. The reminders before the end of a free trial are scheduled on your phone, and only if you allow notifications.</p>
 <p><strong>Anonymous statistics.</strong> The app counts how many times each subject is viewed and read further, as simple totals per subject. These counts are not linked to you.</p>
-<p><strong>Emails you send.</strong> "Contact Us" and "Report Error" open your own email app with a prefilled message. I receive it like any email.</p>
 
 <h2>What the app doesn't do</h2>
 <ul>
@@ -51,16 +51,17 @@
 
 <h2>Why the data is used (legal bases)</h2>
 <ul>
-<li>To provide the app and your account, save your progress and manage your subscription: this is needed to perform our agreement (the <a href="terms">Terms of Use</a>).</li>
-<li>To review translation reports, improve the texts and keep the service secure: my legitimate interest in offering a reliable app.</li>
+<li>To provide the app and your account, save your progress, answer your messages and manage your subscription: this is needed to perform our agreement (the <a href="terms">Terms of Use</a>).</li>
+<li>To review translation reports, fix crashes, improve the texts and keep the service secure: my legitimate interest in offering a reliable app.</li>
 <li>To keep purchase records when the law requires it: legal obligation.</li>
 </ul>
 
 <h2>Who processes your data</h2>
 <p>Only these providers, and only to run the app:</p>
 <ul>
-<li><strong>Supabase</strong>: database and sign-in. Stores your profile, account and learning data.</li>
+<li><strong>Supabase</strong>: database and sign-in. Stores your account, your learning data, your reports and your messages.</li>
 <li><strong>RevenueCat</strong>: subscription management.</li>
+<li><strong>Sentry</strong>: crash reports.</li>
 <li><strong>Apple</strong>: App Store purchases, and Sign in with Apple if you use it.</li>
 <li><strong>Google</strong>: only if you choose Sign in with Google.</li>
 </ul>
@@ -68,16 +69,16 @@
 
 <h2>How long data is kept</h2>
 <ul>
-<li><strong>Account and learning data:</strong> as long as your account exists. Deleting your account (Profile → Delete Account) permanently deletes it with its saved words, stats and reports.</li>
-<li><strong>Guest data:</strong> until you create an account (your guest data then moves into it and the guest profile is deleted), or until you ask for it to be deleted.</li>
+<li><strong>Account, learning data, reports and messages:</strong> as long as your account exists. Deleting your account (Profile → Delete Account) permanently deletes all of it.</li>
+<li><strong>Backups:</strong> a copy of the database is made every day and kept for 30 days, so deleted data is gone from the backups within 30 days.</li>
+<li><strong>Crash reports:</strong> kept by Sentry for a limited time, then deleted automatically.</li>
 <li><strong>Purchase records:</strong> kept by Apple and RevenueCat as their own legal obligations require (for example accounting and tax law).</li>
 </ul>
 
 <h2>Your rights</h2>
 <p>Under the GDPR you can access your data, correct it, delete it, get a copy of it, and object to or limit some uses of it.</p>
 <ul>
-<li>With an account, you can delete everything yourself in the app: Profile → Delete Account.</li>
-<li>As a guest, you can create an account and then delete it, or email me.</li>
+<li>You can delete everything yourself in the app: Profile → Delete Account.</li>
 <li>For any other request, email <a href="mailto:legloannicerwan@gmail.com">legloannicerwan@gmail.com</a>. I answer within one month.</li>
 </ul>
 <p>If you think your rights are not respected, you can file a complaint with the CNIL, the French data protection authority (<a href="https://www.cnil.fr">www.cnil.fr</a>).</p>
